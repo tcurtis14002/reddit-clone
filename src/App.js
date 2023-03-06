@@ -1,10 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Header from "./components/Header/Header";
+import SideBar from "./components/SideBar/SideBar";
+// import Feed from "./components/Feed/Feed";
 
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
+      <Header />
+      <SideBar />
+      {/* <Feed /> */}
     </div>
   );
 }
