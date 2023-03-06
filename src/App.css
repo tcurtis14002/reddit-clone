@@ -28,7 +28,7 @@ Header
 
 .header input {
   border-radius: 25px;
-  width: 450px;
+  width: 40rem;
   height: 40px;
   background-color: #f6f7f8;
   padding-left: 20px;
@@ -46,41 +46,46 @@ Header
   font-size: 1.05rem;
 }
 
+.logo {
+  color: red;
+  font-size: 1rem;
+}
+
 /* ---------------------------------------------
 SideBar 
 ------------------------------------------------*/
-.sidebar {
-  display: flex;
-  flex-direction: column;
-  border: solid 2px red;
-  max-width: 255px;
-  min-height: 94vh;
-}
-.sidebar-feeds {
-  display: flex;
+.side-bar {
+  width: 250px;
 }
 
-.sidebar-feed {
-  display: flex;
-  padding: 1rem;
-  width: 100%;
-  justify-content: space-between;
-  border: solid 2px blue;
+.side-bar h3 {
+  padding-left: 1rem;
+  padding-top: 3rem;
 }
 
-.feeds-title {
-  align-self: left;
-  padding-bottom: 2rem;
-  font-size: 0.75rem;
-}
-.sidebar-nav {
-  display: flex;
+.side-bar .nav-link {
   text-decoration: none;
-  color: inherit;
-  justify-content: space-between;
-  border: solid 2px green;
+  color: black;
 }
 
+.side-bar ul {
+  list-style: none;
+}
+
+.side-bar li {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+
+.side-bar a {
+  text-decoration: none;
+}
+
+li i {
+  color: black;
+  padding-right: 0.5rem;
+}
 /* ---------------------------------------------
 Colors 
 ------------------------------------------------*/
