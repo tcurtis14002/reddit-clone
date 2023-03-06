@@ -3,9 +3,9 @@ import React from "react";
 const Header = () => {
   return (
     <div className="header">
-      <div>
+      <div className="logo">
         <i class="fa-brands fa-reddit fa-2xl red"></i>
-        <i class="fa-solid fa-rss fa-xl"></i>
+        reddit
       </div>
       <input type="text" placeholder="Search Reddit" />
       <div>
